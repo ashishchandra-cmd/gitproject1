@@ -1,0 +1,25 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <form action="" method="post">
+        {% csrf_token %}
+        first_name: <input type="text " name='first'> <br>
+        last_name: <input type="text " name='last'> <br>
+        username: <input type="text " name='uname'> <br>
+        email: <input type="email " name='email'> <br>
+        password: <input type="password " name='password'> <br>
+        phone: <input type="number " name='contact'> <br>
+        <select name="uType" id="">
+            <option value="stro">strocket</option>
+            <option value="disp">Dispatcher</option>
+            <option value="cust">customer</option>
+        </select> <br>
+        <input type="submit" value="register">
+    </form>
+</body>
+</html>
