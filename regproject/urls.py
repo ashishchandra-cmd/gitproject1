@@ -32,4 +32,7 @@ urlpatterns = [
     path('login/', views.login_view, name='login_name'),
     path('user_login/', views.user_login_view, name='user_login'),
     path('user_logout/', views.logout_view, name='user_logout_name'),
+
+
+    path('customerRegister/',views.customerRegister, name='customerRegister_show')
 ]
